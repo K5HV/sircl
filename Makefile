@@ -20,7 +20,7 @@ FLAGS	= -Wall -I$(INCLUDE) -ggdb
 # LIB
 
 $(LIB)/libsircll-$(VERSION).a: $(L_OBJS) $(H_OBJS)
-	ld -m elf_i386 -r -o $(LIB)/libsircl-$(VERSION).a $(L_OBJS) $(H_OBJS)
+	ld -r -o $(LIB)/libsircl-$(VERSION).a $(L_OBJS) $(H_OBJS)
    
 
 # OBJECTS LOW-LEVEL
