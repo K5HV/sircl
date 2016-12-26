@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="structirc__user__msg" kind="struct" prot="public">
+    <compoundname>irc_user_msg</compoundname>
+    <includes refid="structs_8h" local="no">structs.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structirc__user__msg_1o0" prot="public" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int irc_user_msg::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+<para>PRIVMSG or NOTICE. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="70" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__user__msg_1o1" prot="public" static="no" volatile="no" mutable="no">
+        <type>char *</type>
+        <definition>char* irc_user_msg::from_nick</definition>
+        <argsstring></argsstring>
+        <name>from_nick</name>
+        <briefdescription>
+<para>nick who sent the message. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="73" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__user__msg_1o2" prot="public" static="no" volatile="no" mutable="no">
+        <type>char *</type>
+        <definition>char* irc_user_msg::from_user</definition>
+        <argsstring></argsstring>
+        <name>from_user</name>
+        <briefdescription>
+<para>nick&apos;s user. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="76" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__user__msg_1o3" prot="public" static="no" volatile="no" mutable="no">
+        <type>char *</type>
+        <definition>char* irc_user_msg::from_host</definition>
+        <argsstring></argsstring>
+        <name>from_host</name>
+        <briefdescription>
+<para>nick&apos;s host. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="79" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__user__msg_1o4" prot="public" static="no" volatile="no" mutable="no">
+        <type>char *</type>
+        <definition>char* irc_user_msg::from_mask</definition>
+        <argsstring></argsstring>
+        <name>from_mask</name>
+        <briefdescription>
+<para>nick&apos;t mask (user@host) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="82" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__user__msg_1o5" prot="public" static="no" volatile="no" mutable="no">
+        <type>char *</type>
+        <definition>char* irc_user_msg::to</definition>
+        <argsstring></argsstring>
+        <name>to</name>
+        <briefdescription>
+<para>Target of the message. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="85" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__user__msg_1o6" prot="public" static="no" volatile="no" mutable="no">
+        <type>char *</type>
+        <definition>char* irc_user_msg::msg</definition>
+        <argsstring></argsstring>
+        <name>msg</name>
+        <briefdescription>
+<para>Message sent. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="88" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Stores a received raw message from an user or channel. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="68" bodystart="67" bodyend="89"/>
+    <listofallmembers>
+      <member refid="structirc__user__msg_1o3" prot="public" virt="non-virtual"><scope>irc_user_msg</scope><name>from_host</name></member>
+      <member refid="structirc__user__msg_1o4" prot="public" virt="non-virtual"><scope>irc_user_msg</scope><name>from_mask</name></member>
+      <member refid="structirc__user__msg_1o1" prot="public" virt="non-virtual"><scope>irc_user_msg</scope><name>from_nick</name></member>
+      <member refid="structirc__user__msg_1o2" prot="public" virt="non-virtual"><scope>irc_user_msg</scope><name>from_user</name></member>
+      <member refid="structirc__user__msg_1o6" prot="public" virt="non-virtual"><scope>irc_user_msg</scope><name>msg</name></member>
+      <member refid="structirc__user__msg_1o5" prot="public" virt="non-virtual"><scope>irc_user_msg</scope><name>to</name></member>
+      <member refid="structirc__user__msg_1o0" prot="public" virt="non-virtual"><scope>irc_user_msg</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

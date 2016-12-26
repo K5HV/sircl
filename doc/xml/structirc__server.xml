@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.3.6">
+  <compounddef id="structirc__server" kind="struct" prot="public">
+    <compoundname>irc_server</compoundname>
+    <includes refid="structs_8h" local="no">structs.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structirc__server_1o0" prot="public" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int irc_server::sock</definition>
+        <argsstring></argsstring>
+        <name>sock</name>
+        <briefdescription>
+<para>Connection&apos;s socket. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="100" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__server_1o1" prot="public" static="no" volatile="no" mutable="no">
+        <type>char *</type>
+        <definition>char* irc_server::server</definition>
+        <argsstring></argsstring>
+        <name>server</name>
+        <briefdescription>
+<para>Server hostname or ip. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="103" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__server_1o2" prot="public" static="no" volatile="no" mutable="no">
+        <type>char *</type>
+        <definition>char* irc_server::server_name</definition>
+        <argsstring></argsstring>
+        <name>server_name</name>
+        <briefdescription>
+<para>Connected server name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="106" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__server_1o3" prot="public" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int irc_server::port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <briefdescription>
+<para>Server port. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="109" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__server_1o4" prot="public" static="no" volatile="no" mutable="no">
+        <type>char *</type>
+        <definition>char* irc_server::nick</definition>
+        <argsstring></argsstring>
+        <name>nick</name>
+        <briefdescription>
+<para>Desired nick to connect with. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="112" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__server_1o5" prot="public" static="no" volatile="no" mutable="no">
+        <type>char *</type>
+        <definition>char* irc_server::pass</definition>
+        <argsstring></argsstring>
+        <name>pass</name>
+        <briefdescription>
+<para>Desired pass to connect with. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="115" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__server_1o6" prot="public" static="no" volatile="no" mutable="no">
+        <type>char *</type>
+        <definition>char* irc_server::user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <briefdescription>
+<para>Desired user to connect with. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="118" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__server_1o7" prot="public" static="no" volatile="no" mutable="no">
+        <type>char *</type>
+        <definition>char* irc_server::real_name</definition>
+        <argsstring></argsstring>
+        <name>real_name</name>
+        <briefdescription>
+<para>Desired user name to connect with. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="121" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__server_1o8" prot="public" static="no" volatile="no" mutable="no">
+        <type>char *</type>
+        <definition>char* irc_server::raw_data</definition>
+        <argsstring></argsstring>
+        <name>raw_data</name>
+        <briefdescription>
+<para>Where the raw data received from server will be stored. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="124" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__server_1o9" prot="public" static="no" volatile="no" mutable="no">
+        <type>_irc_message</type>
+        <definition>struct _irc_message irc_server::msg</definition>
+        <argsstring></argsstring>
+        <name>msg</name>
+        <briefdescription>
+<para>Where the parsed data will be stored. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="127" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__server_1o10" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="structirc__server__msg" kindref="compound">irc_server_msg</ref></type>
+        <definition>struct irc_server_msg irc_server::server_msg</definition>
+        <argsstring></argsstring>
+        <name>server_msg</name>
+        <briefdescription>
+<para>Stores a parsed server message. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="130" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__server_1o11" prot="public" static="no" volatile="no" mutable="no">
+        <type><ref refid="structirc__user__msg" kindref="compound">irc_user_msg</ref></type>
+        <definition>struct irc_user_msg irc_server::user_msg</definition>
+        <argsstring></argsstring>
+        <name>user_msg</name>
+        <briefdescription>
+<para>Stores a parsed user message. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="133" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__server_1o12" prot="public" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int irc_server::message_from</definition>
+        <argsstring></argsstring>
+        <name>message_from</name>
+        <briefdescription>
+<para>Message can be from server or from an user. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="136" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__server_1o13" prot="public" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int irc_server::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+<para>Can be CONNECTED, DISCONNECTED, CONNECTING. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="139" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structirc__server_1o14" prot="public" static="no" volatile="no" mutable="no">
+        <type>int</type>
+        <definition>int irc_server::new_data</definition>
+        <argsstring></argsstring>
+        <name>new_data</name>
+        <briefdescription>
+<para>0 if there aren&apos;t new data or number of bytes read from server. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="142" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Struct which stores information about an irc server. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>irc_user_msg</label>
+        <link refid="structirc__user__msg"/>
+      </node>
+      <node id="1">
+        <label>irc_server</label>
+        <link refid="structirc__server"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>user_msg</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>server_msg</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>irc_server_msg</label>
+        <link refid="structirc__server__msg"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/ckroom/programacion/proyectos/sircl/include/highlevel/structs.h" line="98" bodystart="97" bodyend="144"/>
+    <listofallmembers>
+      <member refid="structirc__server_1o12" prot="public" virt="non-virtual"><scope>irc_server</scope><name>message_from</name></member>
+      <member refid="structirc__server_1o9" prot="public" virt="non-virtual"><scope>irc_server</scope><name>msg</name></member>
+      <member refid="structirc__server_1o14" prot="public" virt="non-virtual"><scope>irc_server</scope><name>new_data</name></member>
+      <member refid="structirc__server_1o4" prot="public" virt="non-virtual"><scope>irc_server</scope><name>nick</name></member>
+      <member refid="structirc__server_1o5" prot="public" virt="non-virtual"><scope>irc_server</scope><name>pass</name></member>
+      <member refid="structirc__server_1o3" prot="public" virt="non-virtual"><scope>irc_server</scope><name>port</name></member>
+      <member refid="structirc__server_1o8" prot="public" virt="non-virtual"><scope>irc_server</scope><name>raw_data</name></member>
+      <member refid="structirc__server_1o7" prot="public" virt="non-virtual"><scope>irc_server</scope><name>real_name</name></member>
+      <member refid="structirc__server_1o1" prot="public" virt="non-virtual"><scope>irc_server</scope><name>server</name></member>
+      <member refid="structirc__server_1o10" prot="public" virt="non-virtual"><scope>irc_server</scope><name>server_msg</name></member>
+      <member refid="structirc__server_1o2" prot="public" virt="non-virtual"><scope>irc_server</scope><name>server_name</name></member>
+      <member refid="structirc__server_1o0" prot="public" virt="non-virtual"><scope>irc_server</scope><name>sock</name></member>
+      <member refid="structirc__server_1o13" prot="public" virt="non-virtual"><scope>irc_server</scope><name>status</name></member>
+      <member refid="structirc__server_1o6" prot="public" virt="non-virtual"><scope>irc_server</scope><name>user</name></member>
+      <member refid="structirc__server_1o11" prot="public" virt="non-virtual"><scope>irc_server</scope><name>user_msg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
